@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT ME</title>
+    <style>
+      h1{
+         color: yellow;
+      }
+
+      .warna{
+         color: blue;
+      }
+    </style>
 </head>
 <body>
      <!-- DATA INFORMASI DIRI -->
@@ -68,65 +77,9 @@
         </tr>
     </table>
 
-    <!-- membuat tabel perkuliahan TI -->
-     <h2>jadwal kuliah di prodi ti </h2>
-     <p>jadwal kuliah prodi ti angkatan 2024 semester 3</p>
-     <table border="1">
-     <tr>
-        <th>hari</th>
-        <th>mata kuliah</th>
-        <th>waktu</th>
-     </tr>
-   <!-- membuat tabel perkuliahan TI  hari senin-->
-     <tr>
-        <td rowspan="2">senin</td>
-        <td> pengantar kecerdasan buatan</td>
-        <td>08:00-10:30</td>
-     </tr>
-     <tr>
-        <td>konfigurasi dan administrasi jaringan</td>
-        <td>11:00-14:00</td>
-     </tr>
-<!-- membuat tabel perkuliahan TI  hari selasa-->
- <tr>
-    <td rowspan="2"> selasa</td>
-    <td>anti korupsi</td>
-    <td>08:00-10:00</td>
- </tr>
- <tr>
-    <td>pengantar kecerdasan buatan</td>
-    <td>11:30-14:00</td>
- </tr>
-<!-- membuat tabel perkuliahan TI  hari rabu-->
- <tr>
-    <td rowspan="2">rabu</td>
-    <td>pengantar kecerdasan buatan</td>
-    <td>08:00-11:30</td>
- </tr>
- <tr>
-    <td>pemrograman web</td>
-    <td>12:00:15:30</td>
- </tr>
-<!-- membuat tabel perkuliahan TI  hari kamis-->
- <tr>
-    <td rowspan="2">kamis</td>
-    <td>pengantar kecerdasan buatan</td>
-    <td>08:00-10:30</td>
- </tr>
- <tr>
-    <td>pemrograman web</td>
-    <td>11:00-14:00</td>
- </tr>
- <!-- membuat tabel perkuliahan TI  hari jumat-minggu -->
- <tr>
-    <td>jumat,sabtu,minggu</td>
-    <td rowspan="3">libur</td>
-    <td>-</td>
- </tr>
-    </table>
     
      <!-- membuat formulir kontak -->
-    <h2> Formulir kontak  </h2>
+    <h2 class="warna"> Formulir kontak </h2>
     <form action="submit_from.php" method="post">
         <label for="name">Nama Lengkap:</label>
         <input type="text" id="name" name="fullname" required><br><br>
